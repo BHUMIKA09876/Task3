@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #0592ab;
+  padding-top: 50px;
+}
+
+h1 {
+  color: #000000;
+  font-size: 40px;
+}
+
+.game {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  gap: 15px;
+  justify-content: center;
+  margin: 20px;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  background: white;
+  border: 5px solid #333;
+  font-size: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.cell:hover {
+  background: #767272;
+}
+
+#status {
+  margin-top: 20px;
+  font-size: 35px;
+  color: #333;
+}
+
+#reset {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 20px;
+  background: #15a11a;
+  color: white;
+  border: solid black 4px;
+  cursor: pointer;
+}
+
+#reset:hover {
+  background: #61ff69;
+  color: #000;
+}
